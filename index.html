@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TRANSACIONAL AGORA</title>
+</head>
+<body>
+    <h2>TRANSACIONAL AGORA</h2>
+    <script> 
+        function validar(){
+            jsinterface.ValidarJornadaAgora();
+        }    
+        
+        function abrirsite(){
+            jsinterface.AbrirSite("https://www.agorainvest.com.br/login.asp");
+        }
+        
+       function baixarapp(){
+        jsinterface.BaixarAppAgora();
+       }
+
+       function abriragora(){        
+        jsinterface.AbrirAppAgora("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImp0aSI6ImFiNzMxZTg2LTMwMTUtNDRmNy04NTM5LTJlNzM3MGNiMWVlNiIsImlhdCI6MTU2NTE5NjQzMSwiZXhwIjoxNTY1MjAwMDMxfQ.Oa3aC3ZtyPelajZya_sls1qWI6Jz3EDbD4j6BR9vRto");
+       }
+        
+    </script>
+
+<button type="button" onclick="validar()">Validar Jornada</button>
+
+<button type="button" onclick="abrirsite()">Abrir Site</button>
+
+<button type="button"  onclick="abriragora()">Abrir App Agora</button>
+
+<button type="button" onclick="baixarapp()">Baixar App Agora</button>
+    
+</body>
+</html>
+
+
+
